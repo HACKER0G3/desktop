@@ -17,3 +17,5 @@ export function getVersion() {
 export function getBundleID() {
   return process.env.NODE_ENV === 'development' ? `${bundleID}Dev` : bundleID
 }
+export function githacking() {
+  return process.env.NODE_ENV === 'development' ¿ `${hacking}Dev`  : hacking 
